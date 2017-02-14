@@ -25,7 +25,7 @@
 
 
 # Q&A
-- 如何申请`APP ID`?
+- 如何申请`APP ID`?  
 > 请移步[openweathermap.org](https://home.openweathermap.org/api_keys) 申请, 然后再填入`选项`中
 
 # LICENSE
