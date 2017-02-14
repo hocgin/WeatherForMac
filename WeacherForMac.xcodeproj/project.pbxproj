@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57ABBF491E52D623007D333F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ABBF481E52D623007D333F /* Images.xcassets */; };
 		57AF3D3C1E528A12005C7E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D3B1E528A12005C7E21 /* AppDelegate.swift */; };
-		57AF3D3E1E528A12005C7E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AF3D3D1E528A12005C7E21 /* Assets.xcassets */; };
 		57AF3D411E528A12005C7E21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57AF3D3F1E528A12005C7E21 /* MainMenu.xib */; };
 		57AF3D4C1E528A12005C7E21 /* WeacherForMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D4B1E528A12005C7E21 /* WeacherForMacTests.swift */; };
 		57AF3D571E528A12005C7E21 /* WeacherForMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D561E528A12005C7E21 /* WeacherForMacUITests.swift */; };
+		57AF3D6D1E528A87005C7E21 /* OpenWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D641E528A87005C7E21 /* OpenWeather.swift */; };
+		57AF3D6F1E528A87005C7E21 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D661E528A87005C7E21 /* PreferencesWindow.swift */; };
+		57AF3D701E528A87005C7E21 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57AF3D671E528A87005C7E21 /* PreferencesWindow.xib */; };
+		57AF3D711E528A87005C7E21 /* PreferencesWindowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D681E528A87005C7E21 /* PreferencesWindowDelegate.swift */; };
+		57AF3D731E528A87005C7E21 /* StatusMenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D6A1E528A87005C7E21 /* StatusMenuBarController.swift */; };
+		57AF3D741E528A87005C7E21 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D6B1E528A87005C7E21 /* Weather.swift */; };
+		57AF3D751E528A87005C7E21 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D6C1E528A87005C7E21 /* WeatherView.swift */; };
+		57AF3D791E529B33005C7E21 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF3D781E529B33005C7E21 /* Custom.swift */; };
+		B7C2C83F3BA22AB96A116AB4 /* ISSUE_TEMPLATE.md in Sources */ = {isa = PBXBuildFile; fileRef = B7C2C61F17715D8A759EA2A1 /* ISSUE_TEMPLATE.md */; };
+		B7C2CBB4549EA264645AD6DE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B7C2C2D40EFFC9775D5A3EC8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57ABBF481E52D623007D333F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57AF3D381E528A12005C7E21 /* WeacherForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeacherForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AF3D3B1E528A12005C7E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57AF3D3D1E528A12005C7E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57AF3D401E528A12005C7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		57AF3D421E528A12005C7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57AF3D471E528A12005C7E21 /* WeacherForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeacherForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +53,16 @@
 		57AF3D521E528A12005C7E21 /* WeacherForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeacherForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AF3D561E528A12005C7E21 /* WeacherForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeacherForMacUITests.swift; sourceTree = "<group>"; };
 		57AF3D581E528A12005C7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AF3D641E528A87005C7E21 /* OpenWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
+		57AF3D661E528A87005C7E21 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		57AF3D671E528A87005C7E21 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		57AF3D681E528A87005C7E21 /* PreferencesWindowDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowDelegate.swift; sourceTree = "<group>"; };
+		57AF3D6A1E528A87005C7E21 /* StatusMenuBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuBarController.swift; sourceTree = "<group>"; };
+		57AF3D6B1E528A87005C7E21 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		57AF3D6C1E528A87005C7E21 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		57AF3D781E529B33005C7E21 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		B7C2C2D40EFFC9775D5A3EC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B7C2C61F17715D8A759EA2A1 /* ISSUE_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ISSUE_TEMPLATE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,9 @@
 				57AF3D4A1E528A12005C7E21 /* WeacherForMacTests */,
 				57AF3D551E528A12005C7E21 /* WeacherForMacUITests */,
 				57AF3D391E528A12005C7E21 /* Products */,
+				B7C2C2D40EFFC9775D5A3EC8 /* README.md */,
+				B7C2CDC666DBC23AF939B514 /* screenshots */,
+				B7C2CA5B69E8C9E4BDB02316 /* .github */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,10 +116,15 @@
 		57AF3D3A1E528A12005C7E21 /* WeacherForMac */ = {
 			isa = PBXGroup;
 			children = (
+				57AF3D771E528CD5005C7E21 /* Preferences */,
+				57AF3D761E528A96005C7E21 /* api */,
+				57AF3D6A1E528A87005C7E21 /* StatusMenuBarController.swift */,
+				57AF3D6C1E528A87005C7E21 /* WeatherView.swift */,
 				57AF3D3B1E528A12005C7E21 /* AppDelegate.swift */,
-				57AF3D3D1E528A12005C7E21 /* Assets.xcassets */,
 				57AF3D3F1E528A12005C7E21 /* MainMenu.xib */,
 				57AF3D421E528A12005C7E21 /* Info.plist */,
+				57AF3D781E529B33005C7E21 /* Custom.swift */,
+				57ABBF481E52D623007D333F /* Images.xcassets */,
 			);
 			path = WeacherForMac;
 			sourceTree = "<group>";
@@ -117,6 +145,40 @@
 				57AF3D581E528A12005C7E21 /* Info.plist */,
 			);
 			path = WeacherForMacUITests;
+			sourceTree = "<group>";
+		};
+		57AF3D761E528A96005C7E21 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				57AF3D6B1E528A87005C7E21 /* Weather.swift */,
+				57AF3D641E528A87005C7E21 /* OpenWeather.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		57AF3D771E528CD5005C7E21 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				57AF3D661E528A87005C7E21 /* PreferencesWindow.swift */,
+				57AF3D671E528A87005C7E21 /* PreferencesWindow.xib */,
+				57AF3D681E528A87005C7E21 /* PreferencesWindowDelegate.swift */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		B7C2CA5B69E8C9E4BDB02316 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				B7C2C61F17715D8A759EA2A1 /* ISSUE_TEMPLATE.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		B7C2CDC666DBC23AF939B514 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57AF3D3E1E528A12005C7E21 /* Assets.xcassets in Resources */,
+				57ABBF491E52D623007D333F /* Images.xcassets in Resources */,
+				57AF3D701E528A87005C7E21 /* PreferencesWindow.xib in Resources */,
 				57AF3D411E528A12005C7E21 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AF3D741E528A87005C7E21 /* Weather.swift in Sources */,
+				57AF3D6F1E528A87005C7E21 /* PreferencesWindow.swift in Sources */,
+				57AF3D791E529B33005C7E21 /* Custom.swift in Sources */,
+				57AF3D711E528A87005C7E21 /* PreferencesWindowDelegate.swift in Sources */,
+				57AF3D6D1E528A87005C7E21 /* OpenWeather.swift in Sources */,
+				57AF3D751E528A87005C7E21 /* WeatherView.swift in Sources */,
+				57AF3D731E528A87005C7E21 /* StatusMenuBarController.swift in Sources */,
 				57AF3D3C1E528A12005C7E21 /* AppDelegate.swift in Sources */,
+				B7C2CBB4549EA264645AD6DE /* README.md in Sources */,
+				B7C2C83F3BA22AB96A116AB4 /* ISSUE_TEMPLATE.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QTGSTSCQW6;
 				INFOPLIST_FILE = WeacherForMac/Info.plist;
@@ -410,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QTGSTSCQW6;
 				INFOPLIST_FILE = WeacherForMac/Info.plist;
@@ -501,6 +575,7 @@
 				57AF3D5D1E528A12005C7E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57AF3D5E1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +584,7 @@
 				57AF3D601E528A12005C7E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57AF3D611E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +593,7 @@
 				57AF3D631E528A12005C7E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
