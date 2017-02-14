@@ -8,13 +8,13 @@
 4. open WeacherForMac.xcodeproj
 
 # Has What ? :)
-- Status Bar
+- Status Bar  
 ![image](screenshots/2.png)
 
-- Panel
+- Panel   
 ![image](screenshots/1.png)
 
-- Preferences
+- Preferences  
 ![image](screenshots/3.png)
 
 # ISSUES

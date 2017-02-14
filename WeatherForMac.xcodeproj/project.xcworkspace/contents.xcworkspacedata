@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WeacherForMac.xcodeproj">
+      location = "self:/Users/hocgin/Document/Projects/Xcode/WeacherForMac/WeatherForMac.xcodeproj">
    </FileRef>
 </Workspace>

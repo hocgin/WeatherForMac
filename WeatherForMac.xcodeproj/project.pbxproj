@@ -43,14 +43,14 @@
 
 /* Begin PBXFileReference section */
 		57ABBF481E52D623007D333F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		57AF3D381E528A12005C7E21 /* WeacherForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeacherForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF3D381E528A12005C7E21 /* WeatherForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AF3D3B1E528A12005C7E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57AF3D401E528A12005C7E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		57AF3D421E528A12005C7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57AF3D471E528A12005C7E21 /* WeacherForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeacherForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF3D471E528A12005C7E21 /* WeatherForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AF3D4B1E528A12005C7E21 /* WeacherForMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeacherForMacTests.swift; sourceTree = "<group>"; };
 		57AF3D4D1E528A12005C7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57AF3D521E528A12005C7E21 /* WeacherForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeacherForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF3D521E528A12005C7E21 /* WeatherForMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57AF3D561E528A12005C7E21 /* WeacherForMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeacherForMacUITests.swift; sourceTree = "<group>"; };
 		57AF3D581E528A12005C7E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57AF3D641E528A87005C7E21 /* OpenWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		57AF3D2F1E528A12005C7E21 = {
 			isa = PBXGroup;
 			children = (
-				57AF3D3A1E528A12005C7E21 /* WeacherForMac */,
-				57AF3D4A1E528A12005C7E21 /* WeacherForMacTests */,
-				57AF3D551E528A12005C7E21 /* WeacherForMacUITests */,
+				57AF3D3A1E528A12005C7E21 /* WeatherForMac */,
+				57AF3D4A1E528A12005C7E21 /* WeatherForMacTests */,
+				57AF3D551E528A12005C7E21 /* WeatherForMacUITests */,
 				57AF3D391E528A12005C7E21 /* Products */,
 				B7C2C2D40EFFC9775D5A3EC8 /* README.md */,
 				B7C2CDC666DBC23AF939B514 /* screenshots */,
@@ -106,14 +106,14 @@
 		57AF3D391E528A12005C7E21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57AF3D381E528A12005C7E21 /* WeacherForMac.app */,
-				57AF3D471E528A12005C7E21 /* WeacherForMacTests.xctest */,
-				57AF3D521E528A12005C7E21 /* WeacherForMacUITests.xctest */,
+				57AF3D381E528A12005C7E21 /* WeatherForMac.app */,
+				57AF3D471E528A12005C7E21 /* WeatherForMacTests.xctest */,
+				57AF3D521E528A12005C7E21 /* WeatherForMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57AF3D3A1E528A12005C7E21 /* WeacherForMac */ = {
+		57AF3D3A1E528A12005C7E21 /* WeatherForMac */ = {
 			isa = PBXGroup;
 			children = (
 				57AF3D771E528CD5005C7E21 /* Preferences */,
@@ -126,24 +126,27 @@
 				57AF3D781E529B33005C7E21 /* Custom.swift */,
 				57ABBF481E52D623007D333F /* Images.xcassets */,
 			);
+			name = WeatherForMac;
 			path = WeacherForMac;
 			sourceTree = "<group>";
 		};
-		57AF3D4A1E528A12005C7E21 /* WeacherForMacTests */ = {
+		57AF3D4A1E528A12005C7E21 /* WeatherForMacTests */ = {
 			isa = PBXGroup;
 			children = (
 				57AF3D4B1E528A12005C7E21 /* WeacherForMacTests.swift */,
 				57AF3D4D1E528A12005C7E21 /* Info.plist */,
 			);
+			name = WeatherForMacTests;
 			path = WeacherForMacTests;
 			sourceTree = "<group>";
 		};
-		57AF3D551E528A12005C7E21 /* WeacherForMacUITests */ = {
+		57AF3D551E528A12005C7E21 /* WeatherForMacUITests */ = {
 			isa = PBXGroup;
 			children = (
 				57AF3D561E528A12005C7E21 /* WeacherForMacUITests.swift */,
 				57AF3D581E528A12005C7E21 /* Info.plist */,
 			);
+			name = WeatherForMacUITests;
 			path = WeacherForMacUITests;
 			sourceTree = "<group>";
 		};
@@ -184,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57AF3D371E528A12005C7E21 /* WeacherForMac */ = {
+		57AF3D371E528A12005C7E21 /* WeatherForMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57AF3D5B1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMac" */;
+			buildConfigurationList = 57AF3D5B1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMac" */;
 			buildPhases = (
 				57AF3D341E528A12005C7E21 /* Sources */,
 				57AF3D351E528A12005C7E21 /* Frameworks */,
@@ -196,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = WeacherForMac;
+			name = WeatherForMac;
 			productName = WeacherForMac;
-			productReference = 57AF3D381E528A12005C7E21 /* WeacherForMac.app */;
+			productReference = 57AF3D381E528A12005C7E21 /* WeatherForMac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57AF3D461E528A12005C7E21 /* WeacherForMacTests */ = {
+		57AF3D461E528A12005C7E21 /* WeatherForMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57AF3D5E1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacTests" */;
+			buildConfigurationList = 57AF3D5E1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMacTests" */;
 			buildPhases = (
 				57AF3D431E528A12005C7E21 /* Sources */,
 				57AF3D441E528A12005C7E21 /* Frameworks */,
@@ -214,14 +217,14 @@
 			dependencies = (
 				57AF3D491E528A12005C7E21 /* PBXTargetDependency */,
 			);
-			name = WeacherForMacTests;
+			name = WeatherForMacTests;
 			productName = WeacherForMacTests;
-			productReference = 57AF3D471E528A12005C7E21 /* WeacherForMacTests.xctest */;
+			productReference = 57AF3D471E528A12005C7E21 /* WeatherForMacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		57AF3D511E528A12005C7E21 /* WeacherForMacUITests */ = {
+		57AF3D511E528A12005C7E21 /* WeatherForMacUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57AF3D611E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacUITests" */;
+			buildConfigurationList = 57AF3D611E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMacUITests" */;
 			buildPhases = (
 				57AF3D4E1E528A12005C7E21 /* Sources */,
 				57AF3D4F1E528A12005C7E21 /* Frameworks */,
@@ -232,9 +235,9 @@
 			dependencies = (
 				57AF3D541E528A12005C7E21 /* PBXTargetDependency */,
 			);
-			name = WeacherForMacUITests;
+			name = WeatherForMacUITests;
 			productName = WeacherForMacUITests;
-			productReference = 57AF3D521E528A12005C7E21 /* WeacherForMacUITests.xctest */;
+			productReference = 57AF3D521E528A12005C7E21 /* WeatherForMacUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -266,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57AF3D331E528A12005C7E21 /* Build configuration list for PBXProject "WeacherForMac" */;
+			buildConfigurationList = 57AF3D331E528A12005C7E21 /* Build configuration list for PBXProject "WeatherForMac" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -279,9 +282,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57AF3D371E528A12005C7E21 /* WeacherForMac */,
-				57AF3D461E528A12005C7E21 /* WeacherForMacTests */,
-				57AF3D511E528A12005C7E21 /* WeacherForMacUITests */,
+				57AF3D371E528A12005C7E21 /* WeatherForMac */,
+				57AF3D461E528A12005C7E21 /* WeatherForMacTests */,
+				57AF3D511E528A12005C7E21 /* WeatherForMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,12 +355,12 @@
 /* Begin PBXTargetDependency section */
 		57AF3D491E528A12005C7E21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57AF3D371E528A12005C7E21 /* WeacherForMac */;
+			target = 57AF3D371E528A12005C7E21 /* WeatherForMac */;
 			targetProxy = 57AF3D481E528A12005C7E21 /* PBXContainerItemProxy */;
 		};
 		57AF3D541E528A12005C7E21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57AF3D371E528A12005C7E21 /* WeacherForMac */;
+			target = 57AF3D371E528A12005C7E21 /* WeatherForMac */;
 			targetProxy = 57AF3D531E528A12005C7E21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = in.hocg.WeacherForMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeacherForMac.app/Contents/MacOS/WeacherForMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherForMac.app/Contents/MacOS/WeatherForMac";
 			};
 			name = Debug;
 		};
@@ -522,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = in.hocg.WeacherForMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeacherForMac.app/Contents/MacOS/WeacherForMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherForMac.app/Contents/MacOS/WeatherForMac";
 			};
 			name = Release;
 		};
@@ -559,7 +562,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57AF3D331E528A12005C7E21 /* Build configuration list for PBXProject "WeacherForMac" */ = {
+		57AF3D331E528A12005C7E21 /* Build configuration list for PBXProject "WeatherForMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57AF3D591E528A12005C7E21 /* Debug */,
@@ -568,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57AF3D5B1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMac" */ = {
+		57AF3D5B1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57AF3D5C1E528A12005C7E21 /* Debug */,
@@ -577,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57AF3D5E1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacTests" */ = {
+		57AF3D5E1E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57AF3D5F1E528A12005C7E21 /* Debug */,
@@ -586,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57AF3D611E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeacherForMacUITests" */ = {
+		57AF3D611E528A12005C7E21 /* Build configuration list for PBXNativeTarget "WeatherForMacUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57AF3D621E528A12005C7E21 /* Debug */,
