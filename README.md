@@ -2,6 +2,10 @@
 <p align="center"><img src="screenshots/weather-macOS.png"/></p>
 
 # Install It
+1. OS X 10.12/Xcode 8.0/Swift 3.0
+2. $ git clone --recursive https://github.com/hocgin/WeacherForMac
+3. $ pod install
+4. open WeacherForMac.xcodeproj
 
 # Has What ? :)
 - Status Bar
