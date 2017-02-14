@@ -10,8 +10,10 @@
 # Has What ? :)
 - Status Bar
 ![image](screenshots/2.png)
+
 - Panel
 ![image](screenshots/1.png)
+
 - Preferences
 ![image](screenshots/3.png)
 
