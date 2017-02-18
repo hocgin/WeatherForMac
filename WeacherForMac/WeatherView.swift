@@ -22,7 +22,7 @@ class WeatherView: NSView {
 //            self.weatherIcon?.image = NSImage(named: weather.icon)
             self.weatherIcon?.image = NSImage(named: "zy" + weather.icon)
             self.weatherCity.stringValue = weather.city
-            self.weatherTemp.stringValue = "\(Int(weather.currentTemp))°C    \(weather.conditions)"
+            self.weatherTemp.stringValue = "\(Int(weather.currentTemp))°C \(weather.conditions)"
             
             let formatter = DateFormatter()
             formatter.dateFormat = "HH:mm"
