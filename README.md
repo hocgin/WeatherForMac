@@ -3,6 +3,7 @@
 
 # Install It
 > [Download](https://github.com/hocgin/WeatherForMac/releases)
+
 1. OS X 10.12/Xcode 8.0/Swift 3.0
 2. $ git clone --recursive https://github.com/hocgin/WeacherForMac
 3. $ pod install
